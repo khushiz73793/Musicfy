@@ -7,7 +7,7 @@ export default function Songs() {
 
   return (
     <div>
-      <h2 className="text-xl font-bold mb-4 text-white">Songs</h2>
+      <h2 className="text-xl font-bold mb-4 text-yellow-200">Songs</h2>
       <div className="flex gap-4 overflow-x-auto pb-4">
         {songs.map((song, idx) => (
           <SongCard key={idx} song={song} index={idx}/>

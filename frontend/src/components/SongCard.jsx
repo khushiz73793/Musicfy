@@ -16,7 +16,7 @@ export default function SongCard({ song, index }) {
   return (
     <div
       onClick={handleClick}
-      className="max-h-80 min-h-80 w-64 min-w-[180px] bg-gradient-to-br from-neutral-800 via-neutral-900 to-neutral-800 rounded-xl p-4 cursor-pointer shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-200"
+      className="max-h-80 min-h-80 w-64 min-w-[180px] bg-gradient-to-br from-[#a657ab84] via-[#b24cb87d] to-[#742f79b3] rounded-xl p-4 cursor-pointer shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-200"
     >
       {/* Poster Image */}
       <div className="overflow-hidden rounded-lg mb-4">
